@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Client\Utilities.csproj", "{554A13E0-2FE0-473B-B3B7-229A7B1EEC4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure Log Viewer", "Azure Log Viewer\Azure Log Viewer.csproj", "{2961890C-B31D-4122-9002-D6081F59C33D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{C4BE3FCD-DEB6-4EC4-BF45-CF8B829695CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "v 0.1", "v 0.1", "{CF798A91-D434-4A38-B0A9-C90A7679E64F}"
+	ProjectSection(SolutionItems) = preProject
+		Packages\v 0.1\ClearPeople Azure Log Viewer-0.1.zip = Packages\v 0.1\ClearPeople Azure Log Viewer-0.1.zip
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Items", "Items\Items.csproj", "{DC3CB2C8-C492-4EB9-B1B2-43A1A481299C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{9572333E-64D5-4C65-8F5A-B66CA105B22C}"
+	ProjectSection(SolutionItems) = preProject
+		Libraries\Microsoft.WindowsAzure.StorageClient.dll = Libraries\Microsoft.WindowsAzure.StorageClient.dll
+		Libraries\ServiceDescription.dll = Libraries\ServiceDescription.dll
+		Libraries\Sitecore.Azure.dll = Libraries\Sitecore.Azure.dll
+		Libraries\Sitecore.Azure.ServiceRuntime.dll = Libraries\Sitecore.Azure.ServiceRuntime.dll
+		Libraries\Sitecore.Azure.UI.dll = Libraries\Sitecore.Azure.UI.dll
+		Libraries\Sitecore.Kernel.dll = Libraries\Sitecore.Kernel.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{09D5B6DE-F5AD-4384-9128-115C6531D622}"
+	ProjectSection(SolutionItems) = preProject
+		Azure Log Viewer.vsmdi = Azure Log Viewer.vsmdi
+		SimpleTestSettings.testsettings = SimpleTestSettings.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://cptfs03:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Azure\u0020Log\u0020Viewer\\Azure\u0020Log\u0020Viewer.csproj
+		SccProjectName1 = Azure\u0020Log\u0020Viewer
+		SccLocalPath1 = Azure\u0020Log\u0020Viewer
+		SccProjectUniqueName2 = Client\\Utilities.csproj
+		SccProjectName2 = Client
+		SccLocalPath2 = Client
+		SccProjectUniqueName3 = Items\\Items.csproj
+		SccProjectName3 = Items
+		SccLocalPath3 = Items
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Azure Log Viewer.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{554A13E0-2FE0-473B-B3B7-229A7B1EEC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554A13E0-2FE0-473B-B3B7-229A7B1EEC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554A13E0-2FE0-473B-B3B7-229A7B1EEC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554A13E0-2FE0-473B-B3B7-229A7B1EEC4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2961890C-B31D-4122-9002-D6081F59C33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2961890C-B31D-4122-9002-D6081F59C33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2961890C-B31D-4122-9002-D6081F59C33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2961890C-B31D-4122-9002-D6081F59C33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3CB2C8-C492-4EB9-B1B2-43A1A481299C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3CB2C8-C492-4EB9-B1B2-43A1A481299C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF798A91-D434-4A38-B0A9-C90A7679E64F} = {C4BE3FCD-DEB6-4EC4-BF45-CF8B829695CA}
+	EndGlobalSection
+EndGlobal

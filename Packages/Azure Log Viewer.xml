@@ -1,0 +1,78 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Azure log viewer</PackageName>
+      <Author>ClearPeople</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher>ClearPeople</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Applications/Sitecore Azure/Context Menus/Delivery/View Sitecore Logs/{F44FB44C-5C06-4A0D-AFE6-F2EB9121DC2F}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Sitecore Azure/Context Menus/Delivery/View Windows Events/{5A0B21A1-AB68-465C-B6DC-18565577A292}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Sitecore Azure/Context Menus/Editing/View Sitecore Logs/{96C5D6FA-7E12-4B07-BE83-EDF63BB2B3F9}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Sitecore Azure/Context Menus/Editing/View Windows Events/{5BDEBDDF-E4F1-4A43-A312-7D2AD311C84E}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Content Menu</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/sitecore/shell/Applications/Azure/AzureControls/Dialogs/LogsViewer/</x-item>
+        <x-item>/sitecore/shell/Applications/Azure/AzureControls/Dialogs/LogsViewer/Logs.asmx</x-item>
+        <x-item>/sitecore/shell/Applications/Azure/AzureControls/Dialogs/LogsViewer/Scrypts/</x-item>
+        <x-item>/sitecore/shell/Applications/Azure/AzureControls/Dialogs/LogsViewer/Scrypts/jquery-ui-timepicker-addon.js</x-item>
+        <x-item>/sitecore/shell/Applications/Azure/AzureControls/Dialogs/LogsViewer/Scrypts/picnet.table.filter.min.js</x-item>
+        <x-item>/sitecore/shell/Applications/Azure/AzureControls/Dialogs/LogsViewer/SitecoreLogsViewer.aspx</x-item>
+        <x-item>/sitecore/shell/Applications/Azure/AzureControls/Dialogs/LogsViewer/Styles/</x-item>
+        <x-item>/sitecore/shell/Applications/Azure/AzureControls/Dialogs/LogsViewer/Styles/jquery-ui-timepicker-addon.css</x-item>
+        <x-item>/App_Config/Include/ClearPeople.Azure.config</x-item>
+        <x-item>/bin/ClearPeople.Azure.Utylities.dll</x-item>
+        <x-item>/bin/ClearPeople.AzureLogViewer.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
